@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+        <script src="funciones.js"></script> 
+    </head>
+    <body> 
+        <p id="p1"></p>
+        
+        <img id="escudo" width="100px" high="100px" src="escudito.jpg">
+        <img id="escudo" width="100px" high="100px" src="escudito.jpg" onclick="colorear()">
+       
+        <script type="text/javascript"> 
+            document.write("<h1>HolaJavaScript.</h1>"); 
+            window.alert("Me encanta que estes en el curso.");
+            document.getElementById('p1').innerHTML = Date(); 
+            document.getElementById('p1').innerHTML = 'Me gusto CSS';
+
+            function alegrar(){     
+                var x = document.getElementById("p1");    
+                x.style.fontSize = "25px";                
+                x.style.color = "red";}
+
+            
+            
+        </script>
+
+         <button type="button" 
+                Onclick = "document.getElementById('p1').innerHTML = 'JavaScript tambi&eacuten'"> 
+                OK </button>
+
+        <button type="button" onclick="alegrar()">Alegrar</button> 
+
+        <p>Teclea un n&uacute;mero peque&ntilde;o:</p> 
+        <input type="text" id="numero"> 
+        <button type="button" onclick="validar()">validar</button> 
+        <p id="mensaje"></p>
+
+        <p>Escriba su color favorito:</p> 
+        <input type="text" id="color"> 
+        <button type="button" onclick="fondo()">Aceptar</button> 
+       
+
+    </body> 
+</html>
+

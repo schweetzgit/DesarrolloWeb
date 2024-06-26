@@ -1,0 +1,29 @@
+<html>
+<head></head>
+<body> 
+  <?php
+    $nombre="Alma";
+    $edad=14;
+    echo($nombre);
+    echo($edad);
+   ?>
+  <br><br><br> 
+  <?php 
+    echo($nombre);
+  ?>
+  <br>   	
+  <?php 
+    echo($edad);
+  ?>
+  <br><br><br> 
+  <?php 
+    echo($nombre);
+    echo("<br>");
+    echo($edad);
+  ?>
+  <br><br><br> 
+  <?php 
+    echo($nombre."<br>".$edad);
+  ?>
+</body>
+</html>

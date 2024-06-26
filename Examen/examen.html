@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Agenda Personal</title>
+    <link rel="stylesheet" href="style.css">
+	<script src="javas.js"> </script> 
+  </head>
+  <body>
+    <h1>Agenda Personal</h1>
+    <div>
+      <img src="agenda.png" alt="Agenda Personal">
+    </div>
+    <div>
+      <h2>Mis Contactos</h2>
+      <table>
+        <tr>
+          <th>Nombre</th>
+          <th>Dirección</th>
+          <th>Teléfono</th>
+          <th>Correo Electrónico</th>
+        </tr>
+        <tr>
+          <td>Lina</td>
+          <td>Hogar</td>
+          <td>55 8039 99502</td>
+          <td>lyna@example.com</td>
+        </tr>
+        <tr>
+          <td>María</td>
+          <td>Casa</td>
+          <td>55 2628 4536</td>
+          <td>maria@example.com</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <h2>Mis Redes Sociales</h2>
+      <ul>
+        <li><a href="https://www.facebook.com/">Facebook</a></li>
+        <li><a href="https://www.instagram.com/">Instagram</a></li>
+        <li><a href="https://www.twitter.com/">Twitter</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Agregar Contacto</h2>
+      <form>
+        <label>Nombre: <input type="text" name="nombre"></label>
+        <label>Dirección: <input type="text" name="direccion"></label>
+        <label>Teléfono: <input type="text" name="telefono"></label>
+        <label>Correo Electrónico: <input type="text" name="email"></label>
+        <input type="submit" value="Agregar" onclick="agregarContacto()">
+      </form>
+    </div>
+  </body>
+</html>

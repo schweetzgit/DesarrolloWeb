@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #0092cc;
+}
+
+img {
+  width: 200px;
+  float: left;
+  margin: 0 1rem 1rem 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+th, td {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+  background-color: #ddd;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+input[type="submit"] {
+  padding: 0.5rem 1rem;
+  background-color: #0092cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

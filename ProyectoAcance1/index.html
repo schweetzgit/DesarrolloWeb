@@ -1,0 +1,260 @@
+<!DOCTYPE html> <!--declara el tipo de documento y version de HTML-->
+<html class="wide wow-animation" lang="en"> <!--class:estilo de la pagina, lang: lenguaje-->
+
+<head>  <!--informacion meta y links a recursos externos usados en la pagina-->
+  <title>Proyecto</title>
+
+  <!--meta: informacion acerca de la pagina (formato, deteccion,viewport, set de caracteres usados)-->
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport"
+        content="width=device-width height=device-height initial-scale=1.0 maximum-scale=1.0 user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+
+  <link rel="icono" href="images/Logo_Poderoso.png"> <!--icono en la pestaña del navegador-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css" id="main-styles-link"> <!--id: util para cambiar la apariencia usando JS-->
+</head>
+
+<body>
+  <!--formato a la pagina y establecer diseño-->
+   <div class="page">
+      <!--barra de navegación-->
+      <nav class="navbar"> 
+        <div class="navbar-left"> <!--icono de la pagina-->
+          <a href="index.html"><img src="images/logito.png" alt="Icono"></a>
+        </div>
+        <div class="navbar-right"> <!--secciones-->
+          <a href="index.html">Inicio</a>
+          <a href="index.html">Acerca de</a>
+          <a href="index.html">Contacto</a>
+        </div>
+      </nav>
+    </header>
+
+    <!--carrusel de imagenes y videos que se desplaza automaticamente-->
+    <section class=" fon section swiper-container swiper-slider swiper-slider-minimal" data-loop="true"
+            data-slide-effect="fade" data-simulate-touch="true">
+      <div class="swiper-wrapper"> <!--elementos que mostrar en slider-->
+        <div class="swiper-slide swiper-slide_video" data-slide-bg="images/test.jpg"> <!--establecer una imagen de fondo-->
+          <video width="400" height="600" src="video/Agencia de viajes.mp4" autoplay muted loop type="video/mp4"></video> <!--muted: sin sonido-->
+          <div class="container"> <!--contyenido que se va a superponer sobre el video-->
+            <div class="jumbotron-classic-content"> <!--estilo-->
+              <div class="wow-outer"> <!--animaciones-->
+                <div
+                  class="title-docor-text font-weight-bold title-decorated text-uppercase wow slideInLeft text-white">
+                  LOS MEJORES VUELOS</div>
+              </div>
+              <h1 class="text-uppercase text-white font-weight-bold wow-outer"><span class="wow slideInDown"
+                  data-wow-delay=".2s">ELIGE TU DESTINO</span></h1>
+              <p class="text-white wow-outer"><span class="wow slideInDown" data-wow-delay=".35s">Miles de viajes y destinos al alcance de un Click.</span></p>
+              <div class="wow-outer button-outer"><a
+                  class="button button-md button-primary button-winona wow slideInDown" href="#"
+                  data-wow-delay=".4s">Detalles</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination-outer container">
+        <div class="swiper-pagination swiper-pagination-modern swiper-pagination-marked" data-index-bullet="true"></div>
+      </div>
+    </section>
+
+    <section class="section novi-background section-md text-center">
+      <div class="container">
+        <h3 class="text-uppercase font-weight-bold wow-outer"><span class="wow slideInDown">Lugares Populares</span>
+        </h3>
+        <div class="row row-lg-50 row-35 offset-top-2">
+          <div class="col-md-6 wow-outer">
+            <!-- Post Modern-->
+            <article class="post-modern wow slideInLeft"><a class="post-modern-media" href="#"><img
+                  src="images/corea.jpg" alt="" width="571" height="353" /></a>
+              <h4 class="post-modern-title"><a class="post-modern-title" href="#">Corea del Sur</a></h4>
+              <ul class="post-modern-meta">
+                <li><a class="button-winona" href="#">Desde $5000</a></li>
+                <li>Seúl</li>
+                <li>Busan</li>
+              </ul>
+              <p>El popular país donde nace la música y series que el mundo esta empezando a apresiar c:</p>
+            </article>
+          </div>
+          <div class="col-md-6 wow-outer">
+            <!-- Post Modern-->
+            <article class="post-modern wow slideInLeft"><a class="post-modern-media" href="#"><img
+                  src="images/japon.jpg" alt="" width="571" height="353" /></a>
+              <h4 class="post-modern-title"><a class="post-modern-title" href="#">Japón</a></h4>
+              <ul class="post-modern-meta">
+                <li><a class="button-winona" href="#">Desde $7000</a></li>
+                <li>Tokio</li>
+                <li>Osaka</li>
+              </ul>
+              <p>Fantasías en todo su arte y cultura, la verdadera magia está en los lugares tan bellos que tiene este país</p>
+            </article>
+          </div>
+          <div class="col-md-6 wow-outer">
+            <!-- Post Modern-->
+            <article class="post-modern wow slideInLeft"><a class="post-modern-media" href="#"><img
+                  src="images/esp.jpg" alt="" width="571" height="353" /></a>
+              <h4 class="post-modern-title"><a class="post-modern-title" href="#">España</a></h4>
+              <ul class="post-modern-meta">
+                <li><a class="button-winona" href="#">Desde $4600</a></li>
+                <li>Madrid</li>
+                <li>Barcelona</li>
+              </ul>
+              <p>Conoce España, el hogar de la mayor variedad de libros en español</p>
+            </article>
+          </div>
+          <div class="col-md-6 wow-outer">
+            <!-- Post Modern-->
+            <article class="post-modern wow slideInLeft"><a class="post-modern-media" href="#"><img
+                  src="images/alemania.jpg" alt="" width="571" height="353" /></a>
+              <h4 class="post-modern-title"><a class="post-modern-title" href="#">Alemania</a></h4>
+              <ul class="post-modern-meta">
+                <li><a class="button-winona" href="#">Desde $2700</a></li>
+                <li>Munich</li>
+                <li>Dortmund</li>
+              </ul>
+              <p>Belleza, alcohol y fútbol, si es que no encuentras más maravillas que existen en estos fantásticos lugares.</p>
+            </article>
+          </div>
+          <!--<div class="col-md-12 wow-outer"><a class="button button-primary button-winona button-md" href="#">view More
+              properties</a></div>-->
+        </div>
+      </div>
+    </section>
+
+
+    
+  <!-- contact section -->
+  <section class="contact_section ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="d-flex justify-content-center d-md-block">
+            <h2>
+              Contactanos
+            </h2>
+          </div>
+          <form action="">
+            <div class="contact_form-container">
+              <div>
+                <div>
+                  <input type="text" placeholder="Nombre">
+                </div>
+                <div>
+                  <input type="email" placeholder="Email">
+                </div>
+                <div>
+                  <input type="text" placeholder="Numero de telefono">
+                </div>
+                <div class="mt-5">
+                  <input type="text" placeholder="Mensaje">
+                </div>
+                <div class="mt-5">
+                  <button type="Enviar">
+                    Enviar
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="contact_img-box">
+            <img src="images/contact.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end contact section -->
+
+  <section class="section novi-background  text-center">
+    <footer class="section novi-background footer-advanced bg-gray-700">
+      <div class="footer-advanced-main">
+        <div class="container">
+          <div class="row row-50">
+            <div class="col-lg-4">
+              <h5 class="font-weight-bold text-uppercase text-white">Sobre Nosotros</h5>
+              <p class="footer-advanced-text">Somos una agencia de viajes por México amateur en busca de brindar la
+                mejor experiencia de vuelos para los clientes, nos especializamos en vuelos nacionales pero tambien
+                podemos brindar experiencias inigualables para vuelos internacionales a todas partes del mundo.</p>
+            </div>
+            <div class="col-sm-7 col-md-5 col-lg-4">
+              <h5 class="font-weight-bold text-uppercase text-white">GitHub's</h5>
+              <!-- Post Inline-->
+              <article class="post-inline">
+                <p class="post-inline-title"><a href="https://github.com/schweetzgit">Alma Carolina Colunga Aguilar</a></p>
+                <ul class="post-inline-meta">
+                  <li><a href="https://github.com/schweetzgit">https://github.com/schweetzgit</a></li>
+                </ul>
+              </article>
+              <!-- Post Inline-->
+              <article class="post-inline">
+                <p class="post-inline-title"><a href="https://github.com/Ernesto0208">Ernesto López Zamora</a></p>
+                <ul class="post-inline-meta">
+                  <li><a href="https://github.com/Ernesto0208">https://github.com/Ernesto0208</a></li>
+                </ul>
+              </article>
+              <article class="post-inline">
+                <p class="post-inline-title"><a href="https://github.com/Enriqueroa0017">Enrique Roa López</a></p>
+                <ul class="post-inline-meta">
+                  <li><a href="https://github.com/Enriqueroa0017">https://github.com/Enriqueroa0017</a></li>
+                </ul>
+              </article>
+            </div>
+            <div class="col-sm-5 col-md-7 col-lg-4">
+              <h5 class="font-weight-bold text-uppercase text-white">Integrantes</h5>
+              <div class="row row-x-10" data-lightgallery="group">
+                <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal" href="https://github.com/schweetzgit"
+                    data-lightgallery="item"><img class="thumbnail-minimal-image" src="images/3.jpg" alt="" />
+                    <div class="thumbnail-minimal-caption"></div>
+                  </a></div>
+                <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal" href="https://github.com/11RO17LE00GitHub"
+                    data-lightgallery="item"><img class="thumbnail-minimal-image" src="images/2.jpg" alt="" />
+                    <div class="thumbnail-minimal-caption"></div>
+                  </a></div>
+                <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal" href="https://github.com/Enriqueroa0017"
+                    data-lightgallery="item"><img class="thumbnail-minimal-image" src="images/1.jpg" alt="" />
+                    <div class="thumbnail-minimal-caption"></div>
+                  </a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-advanced-aside">
+        <div class="container">
+          <div class="footer-advanced-layout">
+            <div>
+              <ul class="list-nav">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="https://mac.acatlan.unam.mx/ "target=_blank>Facultad</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <hr />
+      </div>
+      <div class="footer-advanced-aside">
+        <div class="container">
+          <div class="footer-advanced-layout"><a class="brand" href="index.html"><img src="images/logito.png"
+                alt="" width="145" height="64"/></a>
+            <!-- Rights-->
+            <p class="rights">2023<span>&copy;&nbsp;</span><span class="copyright-year"></span> Todos los Derechos
+              Reservados.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section> 
+</div>
+</body>
+</html>
